@@ -63,7 +63,7 @@ function validate() {
         }
     } else {
         alert("First name: " + firstName + "\nLast name: " + lastName + "\nEmail: " + email + "\nGender: " + gender +
-            "\nComments: " + comments + "\nMonthly email: " + monthlyEmail);
+            "\nFound out: " + value + "\nComments: " + comments + "\nMonthly email: " + monthlyEmail);
         return true;
     }
     return false;
